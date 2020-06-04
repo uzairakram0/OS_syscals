@@ -1,0 +1,30 @@
+Homework 1
+
+Question 1:
+syscal.c
+The program demonstrates the operations of system calls from question 1
+compile using:
+gcc -o syscal syscal.c
+
+Run using:
+./syscal
+
+Question 3:
+copy.c
+The Program will copy file a to file B using standard I/O read()/wirte() at a specified chunk and record the time it takes to transfer, the default is byte-by-byte transfer
+Compile using:
+gcc -o copy copy.c
+For 3a run using:
+./copy
+For 3b run using:
+./copy <transfer_chunk_size>
+
+Generating File A at different sizes:
+genfileA.c
+genfileA.c generates a file A of a specified size
+compile using:
+gcc -o gen genfileA.c
+run using:
+./gen <file_size>
+
+
